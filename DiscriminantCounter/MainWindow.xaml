@@ -1,0 +1,47 @@
+﻿<Window x:Class="DiscriminantCounter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DiscriminantCounter"
+        mc:Ignorable="d"
+        Title="Discriminant Counter" Height="450" Width="400" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen" Background="#FF192638" FontSize="20">
+    <Grid>
+        <Label x:Name="labelA1" Content="a   = " HorizontalAlignment="Left" Margin="123,45,0,0" VerticalAlignment="Top" Width="58" FontSize="20" RenderTransformOrigin="-0.286,0.541" FontWeight="Medium" FontStyle="Italic" Foreground="#FF9CABDA"/>
+        <Label x:Name="labelB1" Content="b   = " HorizontalAlignment="Left" Margin="123,104,0,0" VerticalAlignment="Top" Width="58" FontSize="20" FontWeight="Medium" FontStyle="Italic" Foreground="#FF9CABDA"/>
+        <Label x:Name="labelC1" Content="c   = " HorizontalAlignment="Left" Margin="123,171,0,0" VerticalAlignment="Top" Width="58" FontSize="20" FontWeight="Medium" FontStyle="Italic" Foreground="#FF9CABDA"/>
+        <TextBox x:Name="tboxA" HorizontalAlignment="Left" Height="30" Margin="186,49,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="70" FontSize="20" BorderBrush="#FF9CABDA" FontWeight="Medium" MaxLines="1" MaxLength="8" Background="{x:Null}" Foreground="#FF9CABDA" CaretBrush="#FF9CABDA" TextAlignment="Center"/>
+        <TextBox x:Name="tboxB" HorizontalAlignment="Left" Height="30" Margin="188,110,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="70" FontSize="20" BorderBrush="#FF9CABDA" FontWeight="Medium" MaxLines="1" MaxLength="8" Background="{x:Null}" Foreground="#FF9CABDA" CaretBrush="#FF9CABDA" TextAlignment="Center"/>
+        <TextBox x:Name="tboxC" HorizontalAlignment="Left" Height="30" Margin="188,177,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="70" FontSize="20" BorderBrush="#FF9CABDA" FontWeight="Medium" MaxLines="1" MaxLength="8" Background="{x:Null}" Foreground="#FF9CABDA" CaretBrush="#FF9CABDA" TextAlignment="Center"/>
+        <Button x:Name="btnCount" Content="COUNT" Padding="25,10,25,10" Margin="133,243,133,0" VerticalAlignment="Top" Background="#FF5CB4B0" BorderBrush="{x:Null}" Foreground="Black" OpacityMask="Black" FontSize="20" HorizontalAlignment="Center" Click="btnCount_Click">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="7"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <TextBox x:Name="tboxError" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24" BorderBrush="{x:Null}" FontWeight="Medium" MaxLines="1" MaxLength="8" Background="{x:Null}" Foreground="Red" CaretBrush="#FF9CABDA" Text="a can not be 0" Margin="0,335,0,0" TextAlignment="Center" Visibility="Hidden"/>
+        <Grid x:Name="layoutResult" Height="80" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="72,315,72,26" Width="250" Visibility="Hidden">
+            <Label x:Name="labelD" Content="D   =   " HorizontalAlignment="Center"  VerticalAlignment="Top" FontSize="20" RenderTransformOrigin="-0.286,0.541" FontWeight="Medium" FontStyle="Italic" Foreground="#FF9CABDA"/>
+            <Label x:Name="labelX1" Content="X1   =   " HorizontalAlignment="Left"  VerticalAlignment="Bottom" FontSize="20" RenderTransformOrigin="-0.286,0.541" FontWeight="Medium" FontStyle="Italic" Foreground="#FF9CABDA"/>
+            <Label x:Name="labelX2" Content="X2   =   " HorizontalAlignment="Right" VerticalAlignment="Bottom" FontSize="20" RenderTransformOrigin="-0.286,0.541" FontWeight="Medium" FontStyle="Italic" Foreground="#FF9CABDA"/>
+        </Grid>
+        <Button HorizontalAlignment="Right" Margin="10"  VerticalAlignment="Top" Width="30" Height="30" BorderBrush="{x:Null}" Click="info_click">
+            <Image Source="images/info.png" Height="30" Width="30"></Image>
+            <Button.Style>
+                <Style TargetType="{x:Type Button}">
+                    <Setter Property="Background" Value="Transparent"/>
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type Button}">
+                                <Border Background="{TemplateBinding Background}">
+                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </Button.Style>
+        </Button>
+    </Grid>
+</Window>

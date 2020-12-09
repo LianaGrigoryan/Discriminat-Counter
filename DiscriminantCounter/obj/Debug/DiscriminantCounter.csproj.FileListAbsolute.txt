@@ -1,0 +1,15 @@
+C:\Users\lgrig\source\repos\DiscriminantCounter\DiscriminantCounter\bin\Debug\DiscriminantCounter.exe.config
+C:\Users\lgrig\source\repos\DiscriminantCounter\DiscriminantCounter\bin\Debug\DiscriminantCounter.exe
+C:\Users\lgrig\source\repos\DiscriminantCounter\DiscriminantCounter\bin\Debug\DiscriminantCounter.pdb
+C:\Users\lgrig\source\repos\DiscriminantCounter\DiscriminantCounter\obj\Debug\DiscriminantCounter.csprojAssemblyReference.cache
+C:\Users\lgrig\source\repos\DiscriminantCounter\DiscriminantCounter\obj\Debug\MainWindow.g.cs
+C:\Users\lgrig\source\repos\DiscriminantCounter\DiscriminantCounter\obj\Debug\App.g.cs
+C:\Users\lgrig\source\repos\DiscriminantCounter\DiscriminantCounter\obj\Debug\DiscriminantCounter_MarkupCompile.cache
+C:\Users\lgrig\source\repos\DiscriminantCounter\DiscriminantCounter\obj\Debug\DiscriminantCounter_MarkupCompile.lref
+C:\Users\lgrig\source\repos\DiscriminantCounter\DiscriminantCounter\obj\Debug\MainWindow.baml
+C:\Users\lgrig\source\repos\DiscriminantCounter\DiscriminantCounter\obj\Debug\DiscriminantCounter.g.resources
+C:\Users\lgrig\source\repos\DiscriminantCounter\DiscriminantCounter\obj\Debug\DiscriminantCounter.Properties.Resources.resources
+C:\Users\lgrig\source\repos\DiscriminantCounter\DiscriminantCounter\obj\Debug\DiscriminantCounter.csproj.GenerateResource.cache
+C:\Users\lgrig\source\repos\DiscriminantCounter\DiscriminantCounter\obj\Debug\DiscriminantCounter.csproj.CoreCompileInputs.cache
+C:\Users\lgrig\source\repos\DiscriminantCounter\DiscriminantCounter\obj\Debug\DiscriminantCounter.exe
+C:\Users\lgrig\source\repos\DiscriminantCounter\DiscriminantCounter\obj\Debug\DiscriminantCounter.pdb
